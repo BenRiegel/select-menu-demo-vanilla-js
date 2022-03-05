@@ -1,0 +1,16 @@
+/* select menu styles */
+
+.select{
+  display: inline-block;
+  background-color: white;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.25);
+  border-radius: 5px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.select[data-state='closed']:not(.animating){
+  border-radius: 12.5px;
+}
