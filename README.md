@@ -1,1 +1,1 @@
-# SelectMenuDemo
+This is demo of a select menu widget created using vanilla JS. It incorporates an animation when the select menu opens and closes. It also notifies public listeners when events occur. Users can enable/disable the select menu controls and animations.

@@ -57,8 +57,8 @@ export default class Store{
   removeUpdateListener( {type, callback} ){
     if (this.#listeners[type]){
       let listenersList = this.#listeners[type];
-      let filteredList = listenersList.filter( element => {
-        return (element !== callback);
+      let filteredList = listenersList.filter( listener => {
+        return (listener !== callback);
       });
       this.#listeners[type] = filteredList;
     }
